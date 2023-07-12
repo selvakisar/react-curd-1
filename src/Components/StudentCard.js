@@ -20,7 +20,7 @@ export default function StudentCard({student, studentData, setData}){
             <p>EDU  : {student.qualification}</p>
             <div className="card-actions justify-end">
         <button className="btn btn-danger"
-        onClick={()=>removeStudent(student.name)}
+        onClick={()=>removeStudent(student.id)}
         >Delete</button>
 
 <button className="btn btn-primary"
